@@ -1,0 +1,29 @@
+h1 {
+	font-family:cursive, sans-serif;
+	margin:50px;
+}
+
+#start, #choice li button {
+	font-size: 20px;
+	padding: 5px;
+	border-radius: 5px;
+	background-color: white;
+	border-color:black;
+}
+#start:hover, #choice li button:hover{
+	background-color: gray;
+	color:white;
+}
+#start {
+	border-width:3px;
+}
+#choice li {
+	display: inline-block;
+	margin: 10px 30px;
+}
+#list li {
+	display: inline-block;
+}
+body {
+	background-color: lightblue;
+}
